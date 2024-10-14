@@ -27,7 +27,7 @@ export class FormComponent {
   }
 
   setForm(){
-    const form = data.find(t => t.id === this.route.snapshot.paramMap.get('id'));
+    const form = data.find(t => t.id === this.route.snapshot.queryParamMap.get('id'));
     this.titleService.setTitle(form?.title ?? 'Ejercicios ingles');
     this.surveyModel = new Model(form);
     this.surveyModel.onComplete.add(this.alertResults);
