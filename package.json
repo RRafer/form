@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --configuration production --base-href https://rrafer.github.io/form/",
+    "deploy": "ng deploy --base-href=https://rrafer.github.io/form/ --repo=https://github.com/rrafer/form.git",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:form-sender": "node dist/form-sender/server/server.mjs"
