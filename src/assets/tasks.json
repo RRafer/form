@@ -15,19 +15,17 @@
                                 "is going to",
                                 "will",
                                 "might"
-                            ],
-                            "correctAnswer": "is going to"
+                            ]
                         },
                         {
                             "type": "radiogroup",
                             "name": "exercise1_question2",
-                            "title": "I forgot to bring my lunch today. Don’t worry, I ______ buy something for you.",
+                            "title": "I forgot to bring my lunch today. Don't worry, I ______ buy something for you.",
                             "choices": [
                                 "am going to",
                                 "will",
                                 "can"
-                            ],
-                            "correctAnswer": "will"
+                            ]
                         }
                     ]
                 },
@@ -37,20 +35,17 @@
                         {
                             "type": "text",
                             "name": "exercise2_question1",
-                            "title": "We ______ (visit) our grandparents this weekend.",
-                            "correctAnswer": "are going to visit"
+                            "title": "We ______ (visit) our grandparents this weekend."
                         },
                         {
                             "type": "text",
                             "name": "exercise2_question2",
-                            "title": "I think it ______ (rain) tomorrow because the sky is very dark.",
-                            "correctAnswer": "is going to rain"
+                            "title": "I think it ______ (rain) tomorrow because the sky is very dark."
                         },
                         {
                             "type": "text",
                             "name": "exercise2_question3",
-                            "title": "They ______ (not finish) their homework tonight because they're too tired.",
-                            "correctAnswer": "are not going to finish"
+                            "title": "They ______ (not finish) their homework tonight because they're too tired."
                         }
                     ]
                 },
@@ -60,22 +55,20 @@
                         {
                             "type": "radiogroup",
                             "name": "exercise3_question1",
-                            "title": "I think I’ll have some coffee.",
+                            "title": "I think I'll have some coffee.",
                             "choices": [
                                 "True",
                                 "False"
-                            ],
-                            "correctAnswer": "True"
+                            ]
                         },
                         {
                             "type": "radiogroup",
                             "name": "exercise3_question2",
-                            "title": "Look at that dog! It’s going to run away!",
+                            "title": "Look at that dog! It's going to run away!",
                             "choices": [
                                 "True",
                                 "False"
-                            ],
-                            "correctAnswer": "True"
+                            ]
                         },
                         {
                             "type": "radiogroup",
@@ -84,8 +77,7 @@
                             "choices": [
                                 "True",
                                 "False"
-                            ],
-                            "correctAnswer": "True"
+                            ]
                         }
                     ]
                 },
@@ -95,14 +87,12 @@
                         {
                             "type": "text",
                             "name": "exercise4_question1",
-                            "title": "Write a question based on the answer: Yes, I will go to the party tonight.",
-                            "correctAnswer": "Will you go to the party tonight?"
+                            "title": "Write a question based on the answer: Yes, I will go to the party tonight."
                         },
                         {
                             "type": "text",
                             "name": "exercise4_question2",
-                            "title": "Write a question based on the answer: We’re going to travel to Spain next month.",
-                            "correctAnswer": "Are you going to travel to Spain next month?"
+                            "title": "Write a question based on the answer: We're going to travel to Spain next month."
                         }
                     ]
                 },
@@ -112,14 +102,12 @@
                         {
                             "type": "text",
                             "name": "exercise5_question1",
-                            "title": "Reescribe: I plan to meet Sarah after work.",
-                            "correctAnswer": "I am going to meet Sarah after work."
+                            "title": "Reescribe: I plan to meet Sarah after work."
                         },
                         {
                             "type": "text",
                             "name": "exercise5_question2",
-                            "title": "Reescribe: I think it’s going to be sunny tomorrow.",
-                            "correctAnswer": "It will be sunny tomorrow."
+                            "title": "Reescribe: I think it's going to be sunny tomorrow."
                         }
                     ]
                 }
@@ -141,8 +129,7 @@
                             "choices": [
                                 "have lived",
                                 "lived"
-                            ],
-                            "correctAnswer": "have lived"
+                            ]
                         },
                         {
                             "type": "radiogroup",
@@ -151,8 +138,7 @@
                             "choices": [
                                 "has traveled",
                                 "traveled"
-                            ],
-                            "correctAnswer": "traveled"
+                            ]
                         }
                     ]
                 },
@@ -162,20 +148,17 @@
                         {
                             "type": "text",
                             "name": "exercise2_question1",
-                            "title": "We ______ (visit) the museum yesterday.",
-                            "correctAnswer": "visited"
+                            "title": "We ______ (visit) the museum yesterday."
                         },
                         {
                             "type": "text",
                             "name": "exercise2_question2",
-                            "title": "He ______ (never/try) sushi before.",
-                            "correctAnswer": "has never tried"
+                            "title": "He ______ (never/try) sushi before."
                         },
                         {
                             "type": "text",
                             "name": "exercise2_question3",
-                            "title": "They ______ (finish) their project already.",
-                            "correctAnswer": "have finished"
+                            "title": "They ______ (finish) their project already."
                         }
                     ]
                 },
@@ -189,8 +172,7 @@
                             "choices": [
                                 "True",
                                 "False"
-                            ],
-                            "correctAnswer": "False"
+                            ]
                         },
                         {
                             "type": "radiogroup",
@@ -199,18 +181,16 @@
                             "choices": [
                                 "True",
                                 "False"
-                            ],
-                            "correctAnswer": "True"
+                            ]
                         },
                         {
                             "type": "radiogroup",
                             "name": "exercise3_question3",
-                            "title": "They didn’t finish their homework yet.",
+                            "title": "They didn't finish their homework yet.",
                             "choices": [
                                 "True",
                                 "False"
-                            ],
-                            "correctAnswer": "False"
+                            ]
                         }
                     ]
                 },
@@ -220,14 +200,12 @@
                         {
                             "type": "text",
                             "name": "exercise4_question1",
-                            "title": "Write a question based on the answer: Yes, I have been to Paris.",
-                            "correctAnswer": "Have you ever been to Paris?"
+                            "title": "Write a question based on the answer: Yes, I have been to Paris."
                         },
                         {
                             "type": "text",
                             "name": "exercise4_question2",
-                            "title": "Write a question based on the answer: We visited the museum yesterday.",
-                            "correctAnswer": "Did you visit the museum yesterday?"
+                            "title": "Write a question based on the answer: We visited the museum yesterday."
                         }
                     ]
                 },
@@ -237,14 +215,12 @@
                         {
                             "type": "text",
                             "name": "exercise5_question1",
-                            "title": "Reescribe: She finished her homework already.",
-                            "correctAnswer": "She has already finished her homework."
+                            "title": "Reescribe: She finished her homework already."
                         },
                         {
                             "type": "text",
                             "name": "exercise5_question2",
-                            "title": "Reescribe: They never tried sushi before.",
-                            "correctAnswer": "They have never tried sushi before."
+                            "title": "Reescribe: They never tried sushi before."
                         }
                     ]
                 }

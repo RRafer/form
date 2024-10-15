@@ -32,6 +32,16 @@ export class FormComponent {
   setForm() {
     const form = data.find(t => t.id === this.route.snapshot.queryParamMap.get('id'))?.survey;
     this.titleService.setTitle(form?.title ?? 'Ejercicios ingles');
+    form?.pages.unshift({
+      "name": "page1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "name",
+          "title": "Nombre"
+        }
+      ]
+    })
     this.surveyModel = new Model(form);
     this.surveyModel.onComplete.add((survey) => {
       const data: any = [];
@@ -45,7 +55,7 @@ export class FormComponent {
         }
       })
   
-      this.http.post("https://script.google.com/macros/s/AKfycbzRgva1k9CEtXdSuTS30jKYdPo5dN91wScab-_wGZ_JYERFn2bH2TEH9p6i9v66SeM/exec", JSON.stringify(data), {
+      this.http.post("https://script.google.com/macros/s/AKfycbxEUH_22ySONACdkbe1bUd0P2uWOyqZytwc3q3ccWUomgHo8rAG-BCNekF1jWwubcdm/exec", JSON.stringify(data), {
         headers: {
           'Content-Type': 'text/plain;charset=utf-8',
         }})
